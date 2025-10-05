@@ -11,9 +11,9 @@ import NavigationBar from './components/NavigationBar.jsx';
 
 function App() {
   return (
-    <>
+    <>   {/* fragment: used for multi element */}
      <Router>
-        <NavigationBar bg="primary" data-bs-theme="dark">
+        <NavigationBar bg="primary" data-bs-theme="dark"> {/* Dont know if navigation works */}
           <Container>
             <Navbar.Brand href="#home">Navbar</Navbar.Brand>
             <Nav className="me-auto">
